@@ -1,0 +1,139 @@
+body{
+    background: url(../multimedia/fondo1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@font-face{
+    font-family: 'Holyfat';
+    src: url(../multimedia/Holyfat.ttf);
+}
+
+.nav{
+    background-color: white;
+    border-radius: 1rem;
+    --bs-nav-link-hover-color: #a9ada9;
+}
+
+.nav-link{
+    font-family: 'Holyfat';
+    font-size: 2.5rem;
+    color: #2fff2f;
+}
+
+.nav-link:hover{
+    background-color: greenyellow;
+    color: white;
+    border-radius: 1rem;
+}
+
+.filtro:hover{
+    filter: brightness(1.1);
+}
+
+svg{
+    color: black;
+}
+
+svg:hover{
+    color: #2fff2f;
+}
+
+h1{
+    color: #2fff2f;
+}
+
+h2{
+    color: #2fff2f;
+}
+
+p{
+    color: rgb(40, 180, 180);
+}
+
+button{
+    border-radius: 50%;
+    border: 0;
+    color: white;
+    background-color: #2fff2f;
+    font-family: 'Holyfat';
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+button:hover{
+    background-color: white;
+    color: #2fff2f;
+}
+
+.tituloObjetivo{
+    border-radius: 10px;
+    font-family: 'Holyfat';
+    font-size: 2.5rem;
+    color: #2fff2f;
+    background-color: rgba(255, 255, 255, 0.555);
+    height: 3rem;
+}
+
+.textoObjetivo{
+    background-color: #4cdb045d;
+    border-radius: 8px;
+    width: 95%;
+    color: white;
+}
+
+.video{
+    height: 12rem;
+    display: flex;
+}
+
+.carrusel{
+    height: 5rem;
+}
+
+.tituloTemas{
+    border-radius: 8px;
+    font-family: 'Holyfat';
+    font-size: 2.5rem;
+    color: #2fff2f;
+    background-color: rgba(255, 255, 255, 0.555);
+    height: 3rem;
+}
+
+.textoTemas{
+    background-color: #4cdb045d;
+    border-radius: 8px;
+    width: 95%;
+    color: white;
+}
+
+.tituloBeneficios{
+    border-radius: 10%;
+    font-family: 'Holyfat';
+    font-size: 2.5rem;
+    color: #2fff2f;
+}
+
+.tamaño{
+    width: 11rem;
+    height: 10rem;
+}
+
+.carousel{
+    width: 20rem;
+}
+
+.footer{
+    background-color: rgba(127, 255, 212, 0.329);
+}
+
+.derechos{
+    color: black;
+}
+
+.logo2{
+    width: 4rem;
+    padding: 1rem 0rem 0rem 0rem;
+}
